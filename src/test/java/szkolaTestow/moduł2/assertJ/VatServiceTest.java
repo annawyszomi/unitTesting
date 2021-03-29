@@ -14,10 +14,6 @@ public class VatServiceTest {
     Product product = new Product(20.00);
 
 
-//    static void prepareVatService() {
-//        vatService = new VatService();
-//    }
-
     @Test
     void shouldCalculateGrossPriceForDefaultPrice() throws Exception {
 
