@@ -1,9 +1,9 @@
-package szkolaTestow.junit;
+package szkolaTestow.moduł1.junit;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import szkolaTestow.moduł1.StringCalculator;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringCalculatorTest {
     StringCalculator calculator;

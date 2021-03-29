@@ -1,6 +1,6 @@
-package szkolaTestow.assertJ;
+package szkolaTestow.moduł1.assertJ;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import szkolaTestow.moduł1.StringCalculator;
 
 import static org.assertj.core.api.Assertions.assertThat;

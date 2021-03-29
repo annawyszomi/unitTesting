@@ -1,4 +1,4 @@
-package szkolaTestow;
+package szkolaTestow.moduł1;
 
 public class StringCalculator {
     public int add(String input) {

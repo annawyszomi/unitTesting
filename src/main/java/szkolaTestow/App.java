@@ -1,5 +1,7 @@
 package szkolaTestow;
 
+import szkolaTestow.moduł1.StringCalculator;
+
 /**
  * Hello world!
  */
