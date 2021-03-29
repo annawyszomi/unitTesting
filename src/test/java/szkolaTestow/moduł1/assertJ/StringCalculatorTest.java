@@ -1,8 +1,9 @@
-package szkolaTestow;
+package szkolaTestow.assertJ;
 
 import org.junit.Test;
+import szkolaTestow.moduł1.StringCalculator;
 
-import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class StringCalculatorTest {
     StringCalculator calculator;
@@ -10,43 +11,43 @@ public class StringCalculatorTest {
     @Test
     public void shouldReturnNumberWhenNegativeNumberGiven() {
         createCalculator();
-        assertEquals(-4, calculator.add("-4"));
+        assertThat(calculator.add("-4")).isEqualTo(-4);
     }
 
     @Test
     public void shouldReturnSumWhenTwoNumbersGiven() {
         createCalculator();
-        assertEquals(100, calculator.add("99,1"));
+        assertThat(calculator.add("99,1")).isEqualTo(100);
     }
 
     @Test
     public void shouldReturnSumWhenThreeNumbersGiven() {
         createCalculator();
-        assertEquals(3, calculator.add("1,1,1"));
+        assertThat(calculator.add("1,1,1")).isEqualTo(3);
     }
 
     @Test
     public void shouldReturnSumWhenZeroGiven() {
         createCalculator();
-        assertEquals(0, calculator.add("0,0"));
+        assertThat(calculator.add("0,0")).isEqualTo(0);
     }
 
     @Test
     public void shouldReturnSumWhenNegativeNumberGiven() {
         createCalculator();
-        assertEquals(-10, calculator.add("-8,-2"));
+        assertThat(calculator.add("-8,-2")).isEqualTo(-10);
     }
 
     @Test
     public void shouldReturnSumWhenPositiveAndNegativeNumberGiven() {
         createCalculator();
-        assertEquals(0,calculator.add("10,-10"));
+        assertThat(calculator.add("-10,10")).isEqualTo(0);
     }
 
     @Test
     public void shouldReturnZeroWhenEmpty() {
         createCalculator();
-        assertEquals(0,calculator.add(""));
+        assertThat(calculator.add("")).isEqualTo(0);
     }
 
 
