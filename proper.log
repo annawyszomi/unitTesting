@@ -1,0 +1,19 @@
+2021-03-29 15:53:56.401 [main] INFO  szkolaTestow.moduł2.cz2.Main - Hello there!
+2021-03-29 16:05:50.321 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for Food
+2021-03-29 16:05:50.324 [main] DEBUG szkolaTestow.moduł2.cz2.VatService - wrong value of vat =1.1
+2021-03-29 16:05:50.332 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for default vat
+2021-03-29 16:05:50.342 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for Book
+2021-03-29 16:13:13.974 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for food
+2021-03-29 16:13:13.976 [main] DEBUG szkolaTestow.moduł2.cz2.VatService - wrong value of vat =1.1
+2021-03-29 16:13:13.986 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for default vat
+2021-03-29 16:13:14.001 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for book
+2021-03-29 16:13:14.015 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for electronics
+2021-03-30 12:16:09.709 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for electronics
+2021-03-30 12:16:28.518 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for food
+2021-03-30 12:16:28.520 [main] DEBUG szkolaTestow.moduł2.cz2.VatService - wrong value of vat =1.1
+2021-03-30 12:16:28.534 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for default vat
+2021-03-30 12:16:28.556 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for book
+2021-03-30 12:16:51.118 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for food
+2021-03-30 12:16:51.122 [main] DEBUG szkolaTestow.moduł2.cz2.VatService - wrong value of vat =1.1
+2021-03-30 12:16:51.125 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for default vat
+2021-03-30 12:16:51.127 [main] INFO  szkolaTestow.moduł2.cz2.VatService - calculating gross price for book
